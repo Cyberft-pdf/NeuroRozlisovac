@@ -14,11 +14,11 @@ from keras.optimizers import RMSprop
 train = ImageDataGenerator(rescale = 1/255)
 validation = ImageDataGenerator(rescale= 1/255)
 
-train_dataset = train.flow_from_directory("C:/Users/Cyber/Desktop/computer-vison/basedate/train",
+train_dataset = train.flow_from_directory("",
                                           target_size=(200,200),
                                           batch_size= 3,
                                           class_mode= "binary")
-validation_dataset = validation.flow_from_directory("C:/Users/Cyber/Desktop/computer-vison/basedate/validation",
+validation_dataset = validation.flow_from_directory("",
                                           target_size=(200,200),
                                           batch_size= 3,
                                           class_mode= "binary")
@@ -49,7 +49,7 @@ model_fit = model.fit(train_dataset,
                       epochs= 30,
                       validation_data= validation_dataset)
 
-dir_path = "C:/Users/Cyber/Desktop/computer-vison/basedate/test/agapornis"
+dir_path = ""
 
 
 for i in os.listdir(dir_path):
