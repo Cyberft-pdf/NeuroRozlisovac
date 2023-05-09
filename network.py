@@ -42,7 +42,7 @@ model = tf.keras.models.Sequential([ tf.keras.layers.Conv2D(16,(3,3), activation
 model.compile(loss= "binary_crossentropy",
               optimizer= RMSprop(lr=0.001),
               metrics = ["accuracy"])
-
+             #made by cyberft-pdf
 model_fit = model.fit(train_dataset,
                       steps_per_epoch= 3,
                       epochs= 30,
