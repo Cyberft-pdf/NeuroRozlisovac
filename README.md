@@ -1,2 +1,2 @@
-# neural-network
-This neural network can say difference between agapornis and rainbow lorikeet :) or anything you give it to the network 
+# Differentiator Neural Network for Image Comparison
+The Differentiator Neural Network is a Python-based project developed using the TensorFlow library. It is designed to accurately distinguish between two given images by leveraging the power of deep learning. By training the neural network on a dataset of labeled images, it learns to identify and highlight the distinguishing features or characteristics of each input image.
