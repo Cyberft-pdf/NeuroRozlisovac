@@ -62,8 +62,8 @@ for i in os.listdir(dir_path):
 
     val = model.predict(images)
     if val == 0:
-        print("tohle je agapornis")
+        print("")
 
     else:
-        print("to je amazonek:)")
+        print("")
 
