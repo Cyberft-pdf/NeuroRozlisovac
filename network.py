@@ -7,7 +7,11 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.preprocessing import image
 from keras.optimizers import RMSprop
 
+"""
+cz = 
 
+
+"""
 train = ImageDataGenerator(rescale = 1/255)
 validation = ImageDataGenerator(rescale= 1/255)
 
