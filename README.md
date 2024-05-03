@@ -5,7 +5,7 @@
 
 <p>By training the neural network on a dataset of labeled images, it learns to identify and highlight the distinguishing features or characteristics of each input image.</p>
 
-<a href="https://colab.research.google.com/drive/1LIKT4iLBMYi9knC1NCm6h6Cs6krxcLGT?usp=sharing">
+<a href="">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
